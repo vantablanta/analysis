@@ -32,3 +32,35 @@ Violets are \\blue/
 I love \\\\Python//
 And I hope you do too!\U0001F601
 """)
+
+dogs = 3
+cats = "Many fluffy cats"
+
+print (cats)
+print (dogs)
+
+name = "Michelle"
+message = "Hello"
+age = 5
+
+print ( name + " "+ message)
+
+print (age * dogs)
+print (age + dogs)
+
+dogs = 2 #new assingment of the dogs variable 
+print(dogs)
+print (age + dogs) #works with the new value of dogs 
+
+cats, dogs, rabbits = 5, 2 , 3
+print (rabbits)
+
+
+
+
+
+
+
+
+
+
