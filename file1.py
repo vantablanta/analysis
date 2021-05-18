@@ -55,10 +55,44 @@ print (age + dogs) #works with the new value of dogs
 cats, dogs, rabbits = 5, 2 , 3
 print (rabbits)
 
+product_amount = 20
+product_price = 25
 
+total_price = product_amount * product_price
 
+print (total_price)
 
+radius = 16
+pi = 3.14159
+area = pi * radius * radius
 
+print (area)
+
+product_cost = 20
+print ("The cost of the produtc is {}" .format(product_cost))
+#string formating making the the number able tobe printed with a strring
+
+#adding multiple things to be formatted 
+dresses = 2
+houses = 1
+cups = 4
+new_message = "I have {} dresses with {} house and {} cups".format(dresses, houses, cups) 
+print (new_message)
+
+#we can also formatt using indexes to rea arrange the order of the varibles 
+cakes = 4
+sweets = 10
+snacks = 4 * 10
+second_message =   "I have {1} sweets which makes a total of {2} snacks and {0} cakes ".format(cakes, sweets, snacks )
+
+print (second_message)
+
+cakes = 4
+sweets = 10
+snacks = 4 * 10
+second_message =   """I have {s} sweets which makes a total of {s2} snacks
+and {c} cakes """.format(c=cakes, s=sweets, s2 =snacks )
+print (second_message)
 
 
 
